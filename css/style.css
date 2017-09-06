@@ -196,3 +196,66 @@ header {
     font-size: 46px;
     font-weight: 300;
     line-height: 67px; }
+
+.main_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.main_content-ready {
+  margin-top: 165px; }
+  .main_content-ready h3 {
+    margin-left: 50px;
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #2d3738;
+    text-transform: uppercase; }
+    .main_content-ready h3 span {
+      color: #fc0000; }
+  .main_content-ready ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none; }
+    .main_content-ready ul li {
+      margin-top: 50px; }
+      .main_content-ready ul li h4 {
+        font-family: "Open Sans";
+        line-height: 40px;
+        color: #ff0000;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase; }
+      .main_content-ready ul li p {
+        font-family: "Open Sans";
+        line-height: 40px;
+        color: #2d3738;
+        font-size: 28px;
+        font-weight: 300; }
+      .main_content-ready ul li i {
+        float: left;
+        margin-right: 20px;
+        border: 1px solid #e30000;
+        border-radius: 50%;
+        padding: 12px;
+        color: #fff;
+        background-color: #e40000; }
+
+.main_content-business {
+  margin: 165px 50px 0 50px; }
+  .main_content-business h4 {
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #2d3738; }
+    .main_content-business h4 span {
+      color: #e60000; }
+
+.main_content-business-images {
+  margin-top: 50px;
+  background: url("../images/576-726.jpg") no-repeat;
+  height: 488px; }
