@@ -242,6 +242,9 @@ header {
         padding: 12px;
         color: #fff;
         background-color: #e40000; }
+      .main_content-ready ul li i:hover {
+        background-color: #fff;
+        color: #e30000; }
 
 .main_content-business {
   margin: 165px 50px 0 50px; }
